@@ -1,0 +1,19 @@
+```xml
+资源插件：
+ <resources>
+      <resource>
+        <directory>src/main/java</directory>
+        <includes>
+          <include>**/*.xml</include>
+        </includes>
+      </resource>
+      <resource>
+        <directory>src/main/resources</directory>
+        <includes>
+          <include>**/*.xml</include>
+          <include>**/*.properties</include>
+       </includes>
+    </resource>
+</resources>
+```
+
